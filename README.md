@@ -31,15 +31,15 @@
       文件: user_info.php
 ## 数据库设计
 ### 数据库: message
-#### 表: usertable
-##### 字段:
+#### 表: usertable 
+      字段:
         Id (INT, 主键, 自动增长)
         username (VARCHAR)
         password (VARCHAR)
         usertype (INT, 1 表示普通用户，9 表示管理员)
         avatar_path (BLOB, 存储头像数据)
 #### 表: message
-##### 字段:
+      字段:
         Id (INT, 主键, 自动增长)
         username (VARCHAR)
         msg (TEXT)
